@@ -1,0 +1,242 @@
+{
+  "id": "ledgerwise-accounting",
+  "brandName": "LedgerWise Accounting",
+  "logoText": "LedgerWise",
+  "theme": {
+    "primary": "#1E3A8A",
+    "secondary": "#0B1020",
+    "accent": "#10B981",
+    "backgroundImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80",
+    "serviceIcons": {
+      "tax": "https://img.icons8.com/ios-filled/100/000000/tax.png",
+      "bookkeeping": "https://img.icons8.com/ios-filled/100/000000/accounting.png",
+      "advisory": "https://img.icons8.com/ios-filled/100/000000/commercial.png"
+    }
+  },
+  "hero": {
+    "title": "Modern Accounting for Small Businesses",
+    "subtitle": "Bookkeeping, taxes, payroll, and advisory—done right, on time, and in plain English.",
+    "cta": "Book a Consultation",
+    "heroImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80"
+  },
+  "services": [
+    "Monthly Bookkeeping",
+    "Year-End & Corporate Taxes",
+    "Payroll & Compliance",
+    "GST/HST Filings",
+    "Financial Statements",
+    "Catch-Up & Cleanup",
+    "Advisory & Forecasting"
+  ],
+  "contact": {
+    "phone": "(825) 555-0120",
+    "email": "hello@ledgerwise.ca",
+    "address": "102 Jasper Ave, Edmonton, AB",
+    "mapLink": "https://goo.gl/maps/exampleLedgerWise",
+    "embedMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.0!2d-113.490!3d53.546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sEdmonton!2sAB!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1523958203904-cdcb402031fd?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1554774853-b415df9eeb92?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "navigation": [
+    { "label": "Home", "path": "/", "enabled": true },
+    { "label": "Services", "path": "/services", "enabled": true },
+    { "label": "Gallery", "path": "/gallery", "enabled": true },
+    { "label": "Pricing", "path": "/pricing", "enabled": true },
+    { "label": "FAQ", "path": "/faq", "enabled": true },
+    { "label": "About", "path": "/about", "enabled": true },
+    { "label": "Contact", "path": "/contact", "enabled": true },
+    { "label": "Book", "path": "/booking", "enabled": true, "cta": true }
+  ],
+  "pages": {
+    "home": {
+      "sections": [
+        { "type": "hero" },
+        {
+          "type": "services",
+          "headline": "What We Do",
+          "blurb": "From day-to-day bookkeeping to year-end filings and advisory—everything your business needs, in one place."
+        },
+        { "type": "gallery", "headline": "Our Workspace" },
+        { "type": "testimonials", "enabled": true },
+        {
+          "type": "cta",
+          "text": "Schedule Your Free Consult",
+          "link": "/booking"
+        }
+      ]
+    },
+    "services": {
+      "intro": "We support incorporated businesses, sole proprietors, and nonprofits. Fixed, transparent pricing with no surprises.",
+      "groups": [
+        {
+          "title": "Compliance",
+          "items": [
+            {
+              "name": "Monthly Bookkeeping",
+              "desc": "Bank/credit card reconciliation, receipts, and monthly reports."
+            },
+            {
+              "name": "Year-End & Corporate Taxes",
+              "desc": "Financial statements, T2 return, and e-filing."
+            },
+            {
+              "name": "GST/HST Filings",
+              "desc": "Quarterly/annual prep and submission."
+            }
+          ]
+        },
+        {
+          "title": "Payroll",
+          "items": [
+            {
+              "name": "Payroll Processing",
+              "desc": "Runs, ROEs, T4s, and remittances."
+            },
+            { "name": "Contractor Payments", "desc": "T5018/T4A as needed." }
+          ]
+        },
+        {
+          "title": "Advisory",
+          "items": [
+            {
+              "name": "Cleanup & Catch-Up",
+              "desc": "Backlogs organized and up to date."
+            },
+            {
+              "name": "Forecasts & Budgets",
+              "desc": "Rolling forecasts and KPI dashboards."
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "enabled": true,
+      "plans": [
+        {
+          "name": "Bookkeeping (from)",
+          "price": "199",
+          "features": [
+            "Monthly reconciliation",
+            "P&L & balance sheet",
+            "Email support"
+          ],
+          "recommended": true
+        },
+        {
+          "name": "Year-End + T2 (from)",
+          "price": "799",
+          "features": [
+            "Financial statements",
+            "Corporate tax return",
+            "E-file & review"
+          ]
+        },
+        {
+          "name": "Payroll (per employee)",
+          "price": "25",
+          "features": [
+            "Runs & remittances",
+            "ROE/T4 filings",
+            "Self-serve paystubs"
+          ]
+        },
+        {
+          "name": "Advisory Retainer (mo)",
+          "price": "149",
+          "features": [
+            "Monthly review call",
+            "Forecasts & KPIs",
+            "Priority email support"
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Do you work with my software?",
+          "a": "Yes—QuickBooks Online and Xero are our primary platforms."
+        },
+        {
+          "q": "Are prices fixed?",
+          "a": "Yes, we scope upfront. Prices above are starting points and depend on volume/complexity."
+        },
+        {
+          "q": "Can you handle backlogs?",
+          "a": "Absolutely. We clean up and get you current before moving to a monthly plan."
+        }
+      ]
+    },
+    "about": {
+      "headline": "Numbers Made Simple",
+      "blurb": "We’re a modern accounting team focused on clarity, speed, and practical advice for small businesses.",
+      "team": [
+        {
+          "name": "Riley Morgan, CPA",
+          "role": "Principal",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Asha Nguyen",
+          "role": "Senior Bookkeeper",
+          "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "booking": {
+      "type": "embed",
+      "embedUrl": "https:cal.com/thedevicelab-vckcck/30min",
+      "linkUrl": "thedevicelab-vckcck/30min"
+    },
+    "seo": {
+      "title": "LedgerWise Accounting | Bookkeeping, Taxes & Payroll in Edmonton",
+      "description": "Professional bookkeeping, corporate taxes, payroll and advisory for small businesses. Transparent pricing and on-time filings.",
+      "keywords": [
+        "accountant",
+        "bookkeeping",
+        "corporate tax",
+        "payroll",
+        "Edmonton"
+      ],
+      "socialImage": "https://images.unsplash.com/photo-1523958203904-cdcb402031fd?auto=format&fit=crop&w=1200&q=80"
+    },
+    "integrations": {
+      "analyticsId": "",
+      "facebookPixelId": "",
+      "tiktokPixelId": ""
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "Olivia S.",
+          "role": "Café Owner",
+          "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "They cleaned up two years of books and now I actually understand my numbers."
+        },
+        {
+          "name": "Marcus T.",
+          "role": "Contractor",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "Fast, clear, and fairly priced. Payroll and GST are no longer a headache."
+        }
+      ]
+    }
+  },
+  "ui": {
+    "cardRadius": "xl",
+    "cardShadow": "soft",
+    "buttonStyle": "solid",
+    "heroVariant": "split"
+  },
+  "motion": { "preset": "soft", "stagger": 0.08, "duration": 0.55 },
+  "font": {
+    "heading": "Poppins",
+    "body": "Inter"
+  }
+}

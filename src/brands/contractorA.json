@@ -1,0 +1,285 @@
+{
+  "id": "northstar-construction",
+  "brandName": "NorthStar Construction",
+  "logoText": "NorthStar",
+  "theme": {
+    "primary": "#1F2937",
+    "secondary": "#0B1020",
+    "accent": "#F59E0B",
+    "backgroundImage": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1600&q=80",
+    "serviceIcons": {
+      "general": "https://img.icons8.com/ios-filled/100/000000/maintenance.png",
+      "remodel": "https://img.icons8.com/ios-filled/100/000000/hammer.png",
+      "roofing": "https://img.icons8.com/ios-filled/100/000000/roofing.png",
+      "flooring": "https://img.icons8.com/?size=100&id=25345&format=png&color=000000",
+      "concrete": "https://img.icons8.com/?size=100&id=OOWCKHRdrq4F&format=png&color=000000",
+      "painting": "https://img.icons8.com/?size=100&id=8191&format=png&color=000000",
+      "electrical": "https://img.icons8.com/ios-filled/100/000000/electrical.png",
+      "plumbing": "https://img.icons8.com/ios-filled/100/000000/plumbing.png"
+    }
+  },
+  "hero": {
+    "title": "Reliable Craftsmanship, Start to Finish",
+    "subtitle": "Renovations, additions, and repairs for homes and small commercial projects across Edmonton.",
+    "cta": "Request a Site Visit",
+    "heroImage": "https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  "services": [
+    "General Contracting",
+    "Kitchen Renovations",
+    "Bathroom Renovations",
+    "Basement Development",
+    "Additions & Framing",
+    "Roofing & Siding",
+    "Flooring & Tile",
+    "Concrete & Foundations",
+    "Exterior Decks & Fences",
+    "Drywall, Mud & Paint",
+    "Windows & Doors",
+    "Small Repairs & Handyman"
+  ],
+  "contact": {
+    "phone": "(825) 555-0147",
+    "email": "build@northstarcon.ca",
+    "address": "12450 97 St NW, Edmonton, AB",
+    "mapLink": "https://goo.gl/maps/exampleNorthStar",
+    "embedMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.0!2d-113.490!3d53.546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sEdmonton!2sAB!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1587052694737-a972e4186288?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "navigation": [
+    { "label": "Home", "path": "/", "enabled": true },
+    { "label": "Services", "path": "/services", "enabled": true },
+    { "label": "Gallery", "path": "/gallery", "enabled": true },
+    { "label": "Pricing", "path": "/pricing", "enabled": true },
+    { "label": "FAQ", "path": "/faq", "enabled": true },
+    { "label": "About", "path": "/about", "enabled": true },
+    { "label": "Contact", "path": "/contact", "enabled": true },
+    { "label": "Book", "path": "/booking", "enabled": true, "cta": true }
+  ],
+  "pages": {
+    "home": {
+      "sections": [
+        { "type": "hero" },
+        {
+          "type": "services",
+          "headline": "Construction & Renovation Services",
+          "blurb": "From concept to completion—licensed, insured, and on schedule."
+        },
+        { "type": "gallery", "headline": "Recent Projects" },
+        { "type": "testimonials", "enabled": true },
+        { "type": "cta", "text": "Book a Free Estimate", "link": "/booking" }
+      ]
+    },
+    "services": {
+      "intro": "We deliver full-service general contracting—organized scopes, clear timelines, and quality trades.",
+      "groups": [
+        {
+          "title": "Interior",
+          "items": [
+            {
+              "name": "Kitchen Renovations",
+              "desc": "Cabinetry, countertops, plumbing, electrical, and tiling."
+            },
+            {
+              "name": "Bathroom Renovations",
+              "desc": "Full gut, waterproofing, tile, fixtures, ventilation."
+            },
+            {
+              "name": "Basement Development",
+              "desc": "Framing, insulation, drywall, egress, and finishing."
+            },
+            {
+              "name": "Flooring & Tile",
+              "desc": "Luxury vinyl plank, hardwood, tile, and baseboards."
+            }
+          ]
+        },
+        {
+          "title": "Exterior",
+          "items": [
+            {
+              "name": "Roofing & Siding",
+              "desc": "Asphalt, metal roofing, vinyl/Hardie siding, soffit & fascia."
+            },
+            {
+              "name": "Decks & Fences",
+              "desc": "PT, cedar, composite decking, privacy and perimeter fences."
+            },
+            {
+              "name": "Windows & Doors",
+              "desc": "Energy-efficient replacements and custom installs."
+            }
+          ]
+        },
+        {
+          "title": "Structure & Concrete",
+          "items": [
+            {
+              "name": "Additions & Framing",
+              "desc": "Engineered framing, beams, and structural modifications."
+            },
+            {
+              "name": "Concrete & Foundations",
+              "desc": "Pads, grade beams, driveways, stairs, and repair."
+            }
+          ]
+        },
+        {
+          "title": "Service & Repairs",
+          "items": [
+            {
+              "name": "Handyman & Punch Lists",
+              "desc": "Small fixes, trim, drywall patches, hardware & caulking."
+            },
+            {
+              "name": "Insurance Restorations",
+              "desc": "Water, fire, and impact repairs—scoped and coordinated."
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "enabled": true,
+      "plans": [
+        {
+          "name": "Site Visit & Estimate",
+          "price": "0",
+          "features": [
+            "On-site assessment",
+            "Scope & timeline",
+            "Written estimate"
+          ],
+          "subtext": "Free within Edmonton",
+          "recommended": true
+        },
+        {
+          "name": "Handyman Hourly (from)",
+          "price": "95",
+          "features": [
+            "2-hour minimum",
+            "Small repairs & installs",
+            "Materials billed at cost"
+          ]
+        },
+        {
+          "name": "Bathroom Reno (from)",
+          "price": "6500",
+          "features": [
+            "Demo & prep",
+            "Waterproofing & tile",
+            "Fixtures & finishing"
+          ],
+          "note": "Final price depends on finishes, layout, and scope."
+        },
+        {
+          "name": "Kitchen Remodel (from)",
+          "price": "12500",
+          "features": [
+            "Cabinetry install",
+            "Countertops & backsplash",
+            "Plumbing & electrical coordination"
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Are you licensed and insured?",
+          "a": "Yes—fully licensed, insured, and WCB-covered. Documentation available on request."
+        },
+        {
+          "q": "Do you handle permits?",
+          "a": "We coordinate permits and inspections as needed for your project."
+        },
+        {
+          "q": "What warranty do you provide?",
+          "a": "Standard 1-year workmanship warranty; manufacturer warranties honored."
+        },
+        {
+          "q": "Do you offer financing?",
+          "a": "We can stage projects and provide milestone billing. Ask about financing partners."
+        },
+        {
+          "q": "How soon can you start?",
+          "a": "Most projects begin 2–4 weeks from approval; emergency repairs sooner."
+        }
+      ]
+    },
+    "about": {
+      "headline": "Built Right. On Time.",
+      "blurb": "NorthStar Construction is a local contractor focused on clean sites, honest timelines, and durable results.",
+      "team": [
+        {
+          "name": "Evan Carter",
+          "role": "Project Manager",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Maya Singh",
+          "role": "Site Supervisor",
+          "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "booking": {
+      "type": "embed",
+      "embedUrl": "https:cal.com/thedevicelab-vckcck/30min",
+      "linkUrl": "thedevicelab-vckcck/30min"
+    },
+    "seo": {
+      "title": "NorthStar Construction | Renovations & General Contracting in Edmonton",
+      "description": "Renovations, additions, roofing, concrete, and repairs. Licensed, insured, and on schedule. Book a free on-site estimate.",
+      "keywords": [
+        "contractor",
+        "renovation",
+        "kitchen",
+        "bathroom",
+        "roofing",
+        "concrete",
+        "Edmonton"
+      ],
+      "socialImage": "https://images.unsplash.com/photo-1591453089816-0fbb971b3cde?auto=format&fit=crop&w=1200&q=80"
+    },
+    "integrations": {
+      "analyticsId": "",
+      "facebookPixelId": "",
+      "tiktokPixelId": ""
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "Daniel R.",
+          "role": "Kitchen Remodel",
+          "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "They finished ahead of schedule and the quality is top-notch."
+        },
+        {
+          "name": "Leah M.",
+          "role": "Roof & Siding",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "Crew was professional and the site stayed clean every day."
+        }
+      ]
+    }
+  },
+  "ui": {
+    "cardRadius": "xl",
+    "cardShadow": "soft",
+    "buttonStyle": "solid",
+    "heroVariant": "split"
+  },
+  "motion": { "preset": "soft", "stagger": 0.08, "duration": 0.55 },
+  "font": {
+    "heading": "Poppins",
+    "body": "Inter"
+  }
+}
