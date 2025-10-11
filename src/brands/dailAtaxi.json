@@ -1,0 +1,228 @@
+{
+  "id": "dial-a-taxi",
+  "brandName": "Dial A Taxi",
+  "logoText": "Dial A Taxi",
+  "theme": {
+    "primary": "#0B3D91",
+    "secondary": "#0A192F",
+    "accent": "#F59E0B",
+    "backgroundImage": "https://images.unsplash.com/photo-1705345846867-2ad8dbb75269?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
+    "serviceIcons": {
+      "city": "https://img.icons8.com/ios-filled/100/taxi.png",
+      "airport": "https://img.icons8.com/ios-filled/100/airport.png",
+      "tour": "https://img.icons8.com/ios-filled/100/mountain.png",
+      "luxury": "https://img.icons8.com/?size=100&id=37710&format=png&color=000000",
+      "custom": "https://img.icons8.com/ios-filled/100/compass.png"
+    }
+  },
+  "hero": {
+    "title": "Explore Montreal in Comfort",
+    "subtitle": "Private city tours, airport transfers, and out-of-town rides — all with professional local drivers.",
+    "cta": "Book Your Ride",
+    "heroImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80"
+  },
+  "services": [
+    "Montreal City Highlights Tour",
+    "Airport Pickup & Drop-Off",
+    "Old Montreal & Mount Royal Drive",
+    "Ottawa or Quebec City Day Trip",
+    "Private Chauffeur Service",
+    "Business & Event Transfers",
+    "Family or Group Rides",
+    "Custom Tour Packages"
+  ],
+  "contact": {
+    "phone": "+1 263 881 4227",
+    "email": "info@dialtaxitour.ca",
+    "address": "Downtown, Montreal, QC",
+    "mapLink": "https://goo.gl/maps/montrealcityexample",
+    "embedMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.0!2d-73.567!3d45.501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sMontreal!2sQC!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1719227762841-70aa7efe450c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1249",
+    "https://images.unsplash.com/photo-1613060600794-b4d20def8e02?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1194",
+    "https://images.unsplash.com/photo-1578494277722-4ebd3d3ab9b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160",
+    "https://images.unsplash.com/photo-1706564543478-14eff7ec6b43?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "https://images.unsplash.com/photo-1683624668626-2fce96bf73a9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "https://images.unsplash.com/photo-1512763613895-de7207475439?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=765"
+  ],
+  "navigation": [
+    { "label": "Home", "path": "/", "enabled": true },
+    { "label": "Services", "path": "/services", "enabled": true },
+    { "label": "Gallery", "path": "/gallery", "enabled": true },
+    { "label": "Pricing", "path": "/pricing", "enabled": true },
+    { "label": "FAQ", "path": "/faq", "enabled": true },
+    { "label": "About", "path": "/about", "enabled": true },
+    { "label": "Contact", "path": "/contact", "enabled": true },
+    { "label": "Book", "path": "/booking", "enabled": true, "cta": true }
+  ],
+  "pages": {
+    "home": {
+      "sections": [
+        { "type": "hero" },
+        {
+          "type": "services",
+          "headline": "Reliable Tours & Transfers",
+          "blurb": "Professional drivers, clean vehicles, and flexible scheduling — your ride, your way."
+        },
+        { "type": "gallery", "headline": "On the Road with DialTaxi" },
+        { "type": "testimonials", "enabled": true },
+        { "type": "cta", "text": "Book Your Ride Now", "link": "/booking" }
+      ]
+    },
+    "services": {
+      "intro": "Dial A Taxi offers both guided city tours and reliable private transfers across Montreal and nearby cities.",
+      "groups": [
+        {
+          "title": "City & Sightseeing",
+          "items": [
+            {
+              "name": "Montreal City Highlights",
+              "desc": "See the best of Old Montreal, the Old Port, Mount Royal, and downtown in comfort."
+            },
+            {
+              "name": "Old Montreal & Mount Royal Drive",
+              "desc": "Historic landmarks, scenic viewpoints, and hidden local gems."
+            },
+            {
+              "name": "Ottawa / Quebec City Day Trip",
+              "desc": "Full-day guided journey with photo stops, breaks, and return transfer."
+            }
+          ]
+        },
+        {
+          "title": "Transfers & Private Rides",
+          "items": [
+            {
+              "name": "Airport Pickup & Drop-Off",
+              "desc": "On-time, stress-free transfers to and from YUL Airport — available 24/7."
+            },
+            {
+              "name": "Business & Event Transfers",
+              "desc": "Punctual rides for conferences, corporate guests, and local events."
+            },
+            {
+              "name": "Private Chauffeur Service",
+              "desc": "Hourly or daily service for meetings, errands, and personal travel."
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "enabled": true,
+      "plans": [
+        {
+          "name": "City Tour (3 Hours)",
+          "price": "99",
+          "features": [
+            "Private sedan or SUV",
+            "Local guide-driver",
+            "Flexible start times"
+          ],
+          "recommended": true
+        },
+        {
+          "name": "Airport Transfer",
+          "price": "55",
+          "features": [
+            "YUL ↔ Downtown Montreal",
+            "Meet & greet service",
+            "Available 24/7"
+          ]
+        },
+        {
+          "name": "Day Trip (Ottawa / Quebec City)",
+          "price": "299",
+          "features": [
+            "Round-trip transfer",
+            "Custom stops & breaks",
+            "Bilingual driver-guide"
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Do you offer airport pickup?",
+          "a": "Yes — we provide 24/7 airport transfers to and from YUL, with meet & greet service."
+        },
+        {
+          "q": "Can I customize my tour?",
+          "a": "Absolutely! We can tailor routes, timing, and stops to your interests."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "We accept credit/debit cards, cash, and online payments. Invoices available for corporate clients."
+        },
+        {
+          "q": "Is it family-friendly?",
+          "a": "Yes, child seats are available upon request at no extra cost."
+        }
+      ]
+    },
+    "about": {
+      "headline": "Local Drivers. Personal Service.",
+      "blurb": "Dial A Taxi is a Montreal-based transport and tour company offering safe, reliable, and friendly experiences around the city and beyond.",
+      "team": [
+        {
+          "name": "Daniel Roy",
+          "role": "Founder & Lead Driver",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Marie Tremblay",
+          "role": "Operations Coordinator",
+          "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "booking": {
+      "type": "embed",
+      "embedUrl": "https:cal.com/thedevicelab-vckcck/30min",
+      "linkUrl": "thedevicelab-vckcck/30min"
+    },
+    "seo": {
+      "title": "Dial A Taxi | Montreal City Tours & Airport Transfers",
+      "description": "Private city tours, airport rides, and day trips from Montreal. Safe, comfortable, and flexible with local drivers.",
+      "keywords": [
+        "Montreal taxi tours",
+        "airport transfer Montreal",
+        "private driver",
+        "Montreal sightseeing",
+        "Quebec City day trip"
+      ],
+      "socialImage": "https://images.unsplash.com/photo-1563720223185-11003f66a6b7?auto=format&fit=crop&w=1200&q=80"
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "Alice B.",
+          "role": "Airport Transfer",
+          "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "Clean car, friendly driver, and on time. Perfect start to our trip!"
+        },
+        {
+          "name": "Mark T.",
+          "role": "Montreal City Tour",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "Daniel showed us hidden spots we’d never have found on our own. Highly recommend!"
+        }
+      ]
+    }
+  },
+  "ui": {
+    "cardRadius": "xl",
+    "cardShadow": "soft",
+    "buttonStyle": "solid",
+    "heroVariant": "split"
+  },
+  "motion": { "preset": "soft", "stagger": 0.08, "duration": 0.55 },
+  "font": {
+    "heading": "Poppins",
+    "body": "Inter"
+  }
+}
