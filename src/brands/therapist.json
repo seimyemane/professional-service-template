@@ -1,0 +1,266 @@
+{
+  "id": "northstar-therapy",
+  "brandName": "North Star Therapy",
+  "logoText": "North Star",
+  "theme": {
+    "primary": "#3B82F6",
+    "secondary": "#0B1020",
+    "accent": "#10B981",
+    "backgroundImage": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+    "serviceIcons": {
+      "trauma": "https://img.icons8.com/ios-filled/100/000000/mental-state.png",
+      "child": "https://img.icons8.com/ios-filled/100/000000/children.png",
+      "couples": "https://img.icons8.com/ios-filled/100/000000/couple-man-woman.png",
+      "adhd": "https://img.icons8.com/ios-filled/100/000000/brain.png",
+      "personality": "https://img.icons8.com/ios-filled/100/000000/bolivian-girl.png"
+    }
+  },
+  "hero": {
+    "title": "Feel Grounded. Heal Deeply. Grow Together.",
+    "subtitle": "Specialized therapy for trauma, children & teens, couples, ADHD, and personality disorders—online or in-clinic.",
+    "cta": "Book a Free Consult",
+    "heroImage": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80"
+  },
+  "services": [
+    "Trauma & PTSD Therapy (EMDR, TF-CBT)",
+    "Child & Teen Therapy (Play-based, CBT, Parent coaching)",
+    "Couples & Relationship Therapy (EFT/Gottman-informed)",
+    "ADHD Assessment & Skills Coaching",
+    "DBT-Informed Therapy for Personality Disorders",
+    "Anxiety & Depression",
+    "Grief, Loss & Life Transitions"
+  ],
+  "contact": {
+    "phone": "(778) 302-2972",
+    "email": "intake@northstartherapy.ca",
+    "address": "2181 Johnston Rd, White Rock, BC V4A 1R6",
+    "mapLink": "https://maps.app.goo.gl/h2c1kqvCnAozZrWP9",
+    "embedMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.941149800282!2d-122.80306618255617!3d49.03072629999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485c397e7f0e827%3A0x8d8b9952601a5116!2sSoleil%20White%20Rock%20Living!5e0!3m2!1sen!2sca!4v1761772662130!5m2!1sen!2sca"
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1493836512294-502baa1986e2?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1616740793717-0aca29b92221?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=679",
+    "https://images.unsplash.com/photo-1542353436-312f0e1f67ff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=942"
+  ],
+  "navigation": [
+    { "label": "Home", "path": "/", "enabled": true },
+    { "label": "Services", "path": "/services", "enabled": true },
+    { "label": "Gallery", "path": "/gallery", "enabled": true },
+    { "label": "Pricing", "path": "/pricing", "enabled": true },
+    { "label": "FAQ", "path": "/faq", "enabled": true },
+    { "label": "About", "path": "/about", "enabled": true },
+    { "label": "Contact", "path": "/contact", "enabled": true },
+    { "label": "Book", "path": "/booking", "enabled": true, "cta": true }
+  ],
+  "pages": {
+    "home": {
+      "sections": [
+        { "type": "hero" },
+        {
+          "type": "services",
+          "headline": "How We Help",
+          "blurb": "Evidence-based, compassionate care for individuals, children & teens, and couples—tailored to your goals."
+        },
+        { "type": "gallery", "headline": "Our Calm Space" },
+        { "type": "testimonials", "enabled": true },
+        {
+          "type": "cta",
+          "text": "Start with a Free 15-Minute Consult",
+          "link": "/booking"
+        }
+      ]
+    },
+    "services": {
+      "intro": "We support adults, children, teens, and couples. In-person in Edmonton and secure virtual therapy across Alberta.",
+      "groups": [
+        {
+          "title": "Individuals",
+          "items": [
+            {
+              "name": "Trauma & PTSD (EMDR, TF-CBT)",
+              "desc": "Process safely, reduce triggers, and reclaim daily life."
+            },
+            {
+              "name": "Anxiety & Depression",
+              "desc": "CBT, mindfulness, and behavioural activation for symptom relief."
+            },
+            {
+              "name": "ADHD (Teens & Adults)",
+              "desc": "Screening, skills coaching, routines, and emotion regulation."
+            }
+          ]
+        },
+        {
+          "title": "Children & Teens",
+          "items": [
+            {
+              "name": "Child & Teen Therapy",
+              "desc": "Play-based and CBT approaches with parent involvement."
+            },
+            {
+              "name": "Parent Coaching",
+              "desc": "Collaborative strategies for home and school."
+            }
+          ]
+        },
+        {
+          "title": "Relationships",
+          "items": [
+            {
+              "name": "Couples Therapy",
+              "desc": "EFT/Gottman-informed work on trust, communication, and repair."
+            },
+            {
+              "name": "Family Sessions",
+              "desc": "Support for transitions, conflict, and stronger bonds."
+            }
+          ]
+        },
+        {
+          "title": "Personality & Emotion",
+          "items": [
+            {
+              "name": "DBT-Informed Therapy",
+              "desc": "Distress tolerance, emotion regulation, and interpersonal skills for BPD traits."
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "enabled": true,
+      "plans": [
+        {
+          "name": "Individual (50 min)",
+          "price": "180",
+          "features": [
+            "Registered provider receipt",
+            "Evidence-based care",
+            "Email follow-up"
+          ],
+          "recommended": true
+        },
+        {
+          "name": "Couples (50 min)",
+          "price": "200",
+          "features": [
+            "EFT/Gottman-informed",
+            "Homework & tools",
+            "Optional extended sessions"
+          ]
+        },
+        {
+          "name": "Child/Teen (50 min)",
+          "price": "185",
+          "features": [
+            "Play-based/CBT",
+            "Parent check-ins",
+            "School strategies"
+          ]
+        },
+        {
+          "name": "Extended (80 min)",
+          "price": "260",
+          "features": ["Deeper session work", "EMDR sets", "Complex cases"]
+        }
+      ]
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Do you offer online therapy?",
+          "a": "Yes—secure video across Alberta."
+        },
+        {
+          "q": "Is therapy covered by insurance?",
+          "a": "Many plans reimburse Registered Psychologists/Clinical Counsellors. We provide detailed receipts."
+        },
+        {
+          "q": "Do you work with children under 12?",
+          "a": "Yes. We tailor play-based sessions and involve caregivers as appropriate."
+        }
+      ]
+    },
+    "about": {
+      "headline": "Compassionate, Evidence-Based Care",
+      "blurb": "Our team blends EMDR, CBT, DBT-informed, and EFT/Gottman approaches to help you heal and grow.",
+      "team": [
+        {
+          "name": "Maya Chen, MSc, RPsych",
+          "role": "Registered Psychologist",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Jordan Ahmed, MC, RCC",
+          "role": "Clinical Counsellor",
+          "photo": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sofia Martinez, C.C.C.",
+          "role": "Child & Teen Therapist",
+          "photo": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=80"
+        }
+      ]
+    },
+    "booking": {
+      "type": "embed",
+      "embedUrl": "https:cal.com/thedevicelab-vckcck/30min",
+      "linkUrl": "thedevicelab-vckcck/30min"
+    },
+    "seo": {
+      "title": "North Star Therapy | Trauma, Child & Teen, Couples, ADHD in Edmonton",
+      "description": "Therapy for trauma, children & teens, couples, ADHD, and personality disorders. In-person and virtual appointments. Book a free 15-minute consult.",
+      "keywords": [
+        "therapy",
+        "trauma",
+        "child therapist",
+        "couples therapy",
+        "ADHD",
+        "DBT",
+        "Edmonton"
+      ],
+      "socialImage": "https://images.unsplash.com/photo-1493836512294-502baa1986e2?auto=format&fit=crop&w=1200&q=80"
+    },
+    "integrations": {
+      "analyticsId": "",
+      "facebookPixelId": "",
+      "tiktokPixelId": ""
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "A.L.",
+          "role": "Client",
+          "photo": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "EMDR helped me finally sleep—gentle, safe, and life-changing."
+        },
+        {
+          "name": "S & J",
+          "role": "Couples Clients",
+          "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "We learned to communicate without spiraling. We feel like a team again."
+        },
+        {
+          "name": "T.M.",
+          "role": "Parent",
+          "photo": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=200&q=80",
+          "rating": 5,
+          "quote": "Our teen’s routines and mood improved—practical ADHD tools that actually stick."
+        }
+      ]
+    }
+  },
+  "ui": {
+    "cardRadius": "xl",
+    "cardShadow": "soft",
+    "buttonStyle": "solid",
+    "heroVariant": "split"
+  },
+  "motion": { "preset": "soft", "stagger": 0.08, "duration": 0.55 },
+  "font": {
+    "heading": "Poppins",
+    "body": "Inter"
+  }
+}
